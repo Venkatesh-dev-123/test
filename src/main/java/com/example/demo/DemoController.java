@@ -10,4 +10,9 @@ public class DemoController {
 	public String welcome() {
 		return "welcome to gradle application";
 	}
+	
+	@RequestMapping("/bye")
+	public String bye() {
+		return "gdbye to gradle application";
+	}
 }
